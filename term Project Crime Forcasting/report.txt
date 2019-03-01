@@ -1,0 +1,24 @@
+# Crime forcasting
+# CS Freshman success community
+# 3/11/17
+# Team 2: Daniel Werminghausen
+
+First thing i did was make the array of 0's in python 
+in my function matrix which takes in height and width as
+arguments. We want a 390 by 331 grid so to test if the array works
+i did a print(matrix(390, 331)) which returned a huge array array's
+with 0's.
+
+The second objective was to take the data from the data each team recieved.
+Made varables for all the matrix the cell_size and  TOP, LEFT.
+
+Altogether in one for loop, I read in the file line by line skipping over the first index of every line 
+by using line.split(',') to skipp the first comma and go straight to the numbers.
+for x i jumped the first index and went straight for the index 1 since in python 
+we count starting from 0. for y i jumped over the first to indexes to get my second
+number. Then in implementated the calculations which were given to us on the powerpoint
+so all or most of the data would fit into our matrix. 
+
+Then since we are working with a huge amount of data again and a huge matrix at that 
+i save the result into result .txt 
+
